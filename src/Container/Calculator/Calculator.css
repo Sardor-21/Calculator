@@ -1,0 +1,31 @@
+.calculator {
+    height: 100vh;
+}
+
+.calculator__content {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #C5D3E0;
+    width: 100%; 
+}
+
+.btn_close:hover {
+    background-color: red !important;
+    color: white !important;
+}
+
+.button {
+    border: 1px solid black !important;
+    padding: 2px 15px;
+    background-color: transparent;
+    color: #9FA6AD;
+}
+
+.input__group {
+    padding: 10px;
+    background-color: #F0F0F0;
+}
+
+.btn__equal {
+    width: 30%;
+}
