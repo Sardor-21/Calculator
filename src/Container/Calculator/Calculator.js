@@ -80,7 +80,7 @@ export default class Calculator extends Component {
                             <div className="col-lg-6 d-flex justify-content-center">
                                 <div className={this.state.a ? "calculator__content" : " calculator__content calcsize"}>
                                     <div className="header d-flex justify-content-between align-items-center">
-                                        <button className="button" onClick={this.reload}> <FaRedo /> </button>
+                                        <button className="button me-1" onClick={this.reload}> <FaRedo /> </button>
                                         <p className="fw-bold mb-0 d-none d-md-block">Form 1</p>
                                         <div className="d-flex justify-content-center align-items-center">
                                             <button className="me-1 button"><FaWindowMinimize /></button>
