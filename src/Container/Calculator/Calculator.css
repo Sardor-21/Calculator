@@ -8,7 +8,9 @@
     background-color: #C5D3E0;
     width: 100%; 
 }
-
+.calcsize {
+    width: 82%;
+}
 .btn_close:hover {
     background-color: red !important;
     color: white !important;
